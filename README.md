@@ -18,3 +18,5 @@ For any problems related to Paraqus, please open an issue in our [github reposit
 ## License
 
 Paraqus is released under the [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) license.
+
+
