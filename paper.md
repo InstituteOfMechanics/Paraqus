@@ -88,7 +88,7 @@ While extensive examples for the usage of Paraqus can be found in the [documenta
 
 # Acknowledgements
 
-The authors are grateful to Isabelle Noll and Lennart Sobisch for beta-testing Paraqus and providing valuable feedback on the examples and documentation. Furthermore, the detailed review of the paper and code by Gabriele Ottino of newcleo S.p.A. is gratefully acknowledged.
+The authors are grateful to Isabelle Noll and Lennart Sobisch for beta-testing Paraqus and providing valuable feedback on the examples and documentation. Furthermore, the detailed review of the paper and code by Gabriele Ottino (newcleo S.p.A.) is gratefully acknowledged.
 
 # Funding
 
