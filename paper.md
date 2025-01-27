@@ -43,10 +43,10 @@ Some software packages similar to Paraqus have been released over the last years
 
 # Syntax example
 
-While extensive examples for the usage of Paraqus can be found in the [documentation](https://paraqus.readthedocs.io), a short syntax example is given in this section. After specifying the variables for the output file path, instance name and step name, the code below can be executed in the Abaqus Python shell or as a script file in Abaqus Python. The reader is referred to the examples folder of the repository for examples that include directions to create example Abaqus output files.
+While extensive examples for the usage of Paraqus can be found in the [documentation](https://paraqus.readthedocs.io), a short syntax example is given in this section. After specifying the variables for the output file path, instance name and step name, the code below can be executed in the Abaqus Python shell or as a script file in Abaqus Python. The reader is referred to the examples folder of the repository for examples that include directions to create example Abaqus output database (ODB) files.
 
     # import the Paraqus classes to read Abaqus output and
-    # to store it as an ASCII-based vtk file
+    # to store it as an ASCII-based VTK file
     from paraqus.abaqus import OdbReader
     from paraqus.writers import AsciiWriter
 
@@ -54,8 +54,8 @@ While extensive examples for the usage of Paraqus can be found in the [documenta
     ODB_PATH = "my_abaqus_output.odb"  # path to the Abaqus ODB
     MODEL_NAME = "My Model"  # can be chosen freely for the output
     INSTANCE_NAMES = ["PART-1-1"]  # choose which instances will be exported
-    STEP_NAME = "Step-1"  # Name of the step that will be exported
-    FRAME_INDEX = -1  # Export the final frame (timestep) of the step
+    STEP_NAME = "Step-1"  # name of the step that will be exported
+    FRAME_INDEX = -1  # export the final frame (timestep) of the step
 
     # the class OdbReader is used to read results from Abaqus ODBs
     reader = OdbReader(odb_path=ODB_PATH,
@@ -69,11 +69,10 @@ While extensive examples for the usage of Paraqus can be found in the [documenta
     # request output of temperature at element centroids
     reader.add_field_export_request("TEMP", field_position="elements")
 
-    # the class AsciiWriter is used to write results in ASCII-based vtk format
-    vtk_writer = AsciiWriter("vtk_output_billet", clear_output_dir=True)
+    # the class AsciiWriter is used to write results in ASCII-based VTK format
+    vtk_writer = AsciiWriter("my_output_directory", clear_output_dir=True)
 
     # there might be multiple instances, so we create a list of the models
-    # there is only one list component in this simple example
     instance_models = list(reader.read_instances(step_name=STEP_NAME,
                                                  frame_index=FRAME_INDEX))
     instance_model = instance_models[0]  # this is a ParaqusModel instance
