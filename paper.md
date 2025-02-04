@@ -35,7 +35,7 @@ The finite element (FE) method is one of the approaches available for solving di
 
 # Statement of need
 
-Abaqus is an example of commercial FE software that is widely used in the academic engineering community. ScienceDirect shows more than 7000 articles tagged with the keyword "Abaqus" and published in 2022. Exporting simulation results to the VTK format serves two purposes: 
+Abaqus is an example of commercial FE software that is widely used in the academic engineering community [@abaqus]. ScienceDirect shows more than 7000 articles tagged with the keyword "Abaqus" and published in 2022. Exporting simulation results to the VTK format serves two purposes: 
 
 - the data can be shared with other researchers and users without access to expensive software, and 
 - specialized open source software like ParaView can be used to create visualizations that would be tedious or impossible to generate in the post-processing module of Abaqus.
