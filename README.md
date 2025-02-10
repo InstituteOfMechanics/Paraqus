@@ -1,3 +1,5 @@
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.05729/status.svg)](https://doi.org/10.21105/joss.05729)
+
 # Paraqus
 
 ## Introduction
@@ -18,5 +20,18 @@ For any problems related to Paraqus, please open an issue in our [github reposit
 ## License
 
 Paraqus is released under the [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) license.
+
+## Citation
+If you used Paraqus for your project, please cite the following [publication](https://joss.theoj.org/papers/10.21105/joss.05729):
+
+    @article{paraqus, 
+             doi = {10.21105/joss.05729}, 
+             year = {2025}, 
+             volume = {10}, 
+             number = {106}, 
+             pages = {5729}, 
+             author = {Tim Furlan and Jonathan Stollberg and Andreas Menzel}, 
+             title = {Paraqus: Exporting Finite Element Simulation Results from Abaqus to VTK}, 
+             journal = {Journal of Open Source Software}}
 
 
