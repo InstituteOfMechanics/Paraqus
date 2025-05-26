@@ -9,7 +9,7 @@ In the following, some details of the package structure, implementation, and cod
 Python versions
 ---------------
 
-Paraqus is intended to run in a standalone Python interpreter, as well as in the Python interpreter shipped with Abaqus (Python 2.7 for releases before Abaqus 2024). The core functionality therefore must work with Python 2.X and 3.X. Abaqus-specific code in ``paraqus.abaqus`` does not need to be Python 3.X compatible.
+Paraqus is intended to run in a standalone Python interpreter, as well as in the Python interpreter shipped with Abaqus (Python 2.7 for releases before Abaqus 2024 and Python 3.10 for newer Abaqus versions). All functionality therefore must work with Python 2.X and 3.X.
 
 
 Code style
