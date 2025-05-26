@@ -3,7 +3,7 @@
 Development
 ===========
 
-Contributions to improve Paraqus are welcome and should be made as pull requests in the `github repository <https://github.com/InstituteOfMechanics/Paraqus>`_.
+Contributions to improve Paraqus are welcome and should be made as pull requests in the `GitHub repository <https://github.com/InstituteOfMechanics/Paraqus>`_.
 In the following, some details of the package structure, implementation, and code style are summarized to help new contributors get up to speed.
 
 Python versions
@@ -55,7 +55,7 @@ Both functions will generate a test report in a text file in the current working
 Releases
 --------
 
-When new functionality is merged into the main branch of Paraqus, a version bump should be performed (by changing the version number in the pyproject.toml). Afterwards, the release is manually pushed to the PyPI test server by the maintainers by running the corresponding github action, which also checks if the non-Abaqus tests pass afterwards in a fresh installation. Only after this step completes successfully, a new release is actually pushed to PyPI by a second github action.
+When new functionality is merged into the main branch of Paraqus, a version bump should be performed (by changing the version number in the pyproject.toml). Afterwards, the release is manually pushed to the PyPI test server by the maintainers by running the corresponding GitHub action, which also checks if the non-Abaqus tests pass afterwards in a fresh installation. Only after this step completes successfully, a new release is actually pushed to PyPI by a second GitHub action.
 
 
 
