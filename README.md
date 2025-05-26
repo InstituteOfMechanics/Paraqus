@@ -14,7 +14,7 @@ The documentation for Paraqus can be found [here](https://paraqus.readthedocs.io
 
 ## Contacts
 
-For any problems related to Paraqus, please open an issue in our [github repository](https://github.com/InstituteOfMechanics/Paraqus).
+For any problems related to Paraqus, please open an issue in our [GitHub repository](https://github.com/InstituteOfMechanics/Paraqus).
 
 
 ## License
